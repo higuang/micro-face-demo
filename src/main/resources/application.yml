@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ${namespace.feign}-face-demo
+
+app:
+  id: fgbp-face-demo
+
+apollo:
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true
